@@ -2,7 +2,7 @@ from pages.main_page import MainPage
 from selenium.webdriver.common.by import By
 import time
 
-link = "http://selenium1py.pythonanywhere.com/"
+link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
 
 def test_guest_can_go_to_login_page(browser):
     browser.get(link)
