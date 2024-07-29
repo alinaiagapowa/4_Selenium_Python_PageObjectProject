@@ -13,3 +13,4 @@ class ProductPageLocators():
     TEXT_PROD = (By.CSS_SELECTOR, '.col-sm-6.product_main > h1')
 
     AMOUNT_BASKET = (By.CSS_SELECTOR, '.alert-info.fade.in > div > p:nth-child(1) > strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alert-success')
